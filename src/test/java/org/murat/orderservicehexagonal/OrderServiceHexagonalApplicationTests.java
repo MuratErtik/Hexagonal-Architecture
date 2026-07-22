@@ -1,0 +1,13 @@
+package org.murat.orderservicehexagonal;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class OrderServiceHexagonalApplicationTests {
+
+    @Test
+    void contextLoads() {
+    }
+
+}

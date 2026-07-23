@@ -14,7 +14,7 @@ public interface OrderRepositoryPort {
 
     Optional<Order> findById(UUID id);
 
-    Optional<Order> findByIdAndStatus(UUID id, OrderStatus status);
+    boolean findByIdAndStatus(UUID id, OrderStatus status);
 
     Optional<Order> findByIdWithLock(UUID id);
 

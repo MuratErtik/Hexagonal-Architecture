@@ -18,7 +18,7 @@ public class OrderItem {
 
     private UUID id;
 
-    private Order order;
+    private Long orderId;
 
     private UUID productId;
 

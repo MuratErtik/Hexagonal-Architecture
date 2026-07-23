@@ -12,7 +12,7 @@ public class FeignConfig {
 
     @Bean
     public ErrorDecoder errorDecoder() {
-        return new FeignErrorDecoder();
+        return null;
     }
 
 
